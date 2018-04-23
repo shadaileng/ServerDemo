@@ -39,7 +39,6 @@ public class UserProvider {
     public String selectUserByBean(Map<String, Object> map){
         SQL sql = new SQL();
         User user = (User) map.get(realTableName);
-        List<String> values = new ArrayList<String>();
 
         sql.SELECT("*")
                 .FROM(realTableName);

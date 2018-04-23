@@ -40,8 +40,8 @@ public class UserTest {
         User user = new User("123456", "Shadaileng", "26", "1", "qpf0510@qq.com", "./res/heading.png", "2018-04-20", "2018-04-20");
 
         System.out.println(user);
-        System.out.println(user.getFields());
-        System.out.println(user.getFieldsLength());
+        System.out.println(User.getFields());
+        System.out.println(User.getFieldsLength());
     }
 
     @Test
